@@ -28,7 +28,7 @@ const OG_METADATA_URL =
 const LOVABLE_ORIGIN = "https://quote-portfolio-elevate.lovable.app";
 
 export const config = {
-  matcher: "/((?!_next/static|_next/image|favicon.ico|lovable-uploads|assets|sitemap\\.xml|robots\\.txt).*)",
+  matcher: "/((?!_next/static|_next/image|favicon.ico|lovable-uploads|assets|sitemap.xml|robots.txt).*)",
 };
 
 function isBot(ua: string): boolean {
